@@ -1,8 +1,5 @@
-@charset "utf-8";
-/*93CCFF*/
-
-/*première partie nav*/
-
+@import url("carrousel.css");
+@import url("legends.css");
 .navbar {
     margin-bottom: 0;
     border: 4;
@@ -12,6 +9,12 @@
     border-radius: 0;
    
    }
+
+.logo img{
+    height: 10%;
+    width: 30%;
+    padding-top: -10px;
+}
 
 h3, h2{
     text-align: center;
@@ -60,6 +63,13 @@ h1{
 .featured-in {
     margin-bottom: 20px;
     margin-top: 20px;
+    
+}
+
+section .head p{
+    font-size: 18px;
+    font-weight: 28px;
+    color: #E9ECEE;
 }
 
 /*GESTION DES BOUTONS*/
@@ -72,10 +82,12 @@ h1{
     color: #fff;
 }
 
-.hero{
-    background-image: url();
-}
 
+
+div .hero{
+    
+    
+}
 /*caroussel*/
 .no-side-pad{
     text-indent: 50px;
@@ -145,6 +157,19 @@ h1{
     padding-top: 20px;
 }
 
+table u{
+    color: green;
+}
+
+table {
+    text-decoration: none;
+}
+
+.wrapper-blue{
+    background:#3079AB;
+    color: white;
+    padding:2em 0;
+}
 
 
 
